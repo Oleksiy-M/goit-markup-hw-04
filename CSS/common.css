@@ -3,6 +3,7 @@
 	--title-text-color: #212121;
 	--accent-color: #2196F3;
 	--white: #ffffff
+	--svg-color: #afb1b8;
 }
 
 body {
@@ -163,6 +164,26 @@ img {
 	margin-right: 50px;
 }
 
+.contacts-svg {
+	margin-right: 10px;
+}
+
+.contacts-data {
+	display: block;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	color: var(--primary-text-color);
+	fill: var(--svg-color);
+}
+
+.contacts-data:hover,
+.contacts-data:focus {
+	color: var(--accent-color);
+	fill: var(--accent-color);
+}
 
 /* button*/
 
@@ -267,10 +288,7 @@ img {
 		border-radius: 4px;
 }
 
-.social-network-svg {
-	width: 20px;
-	height: 20px;
-}
+
 
 .section-advantages {
 	padding-top: 94px;
@@ -279,7 +297,6 @@ img {
 
 .advantages {
 	display: flex;
-	justify-content: space-between;
 }
 
 .advantages-item {
