@@ -468,7 +468,9 @@ fill: var(--svg-color);
 	fill: var(--accent-color);
 }
 
-.client-svg{}
+.client-svg{
+	
+}
 
 /*footer*/
 
@@ -502,20 +504,29 @@ fill: var(--svg-color);
 
 .footer-contacts.city {
 	color: var(--white);
+	
 }
 
-.footer-item:not(:last-child) {
+
+
+.footer-item {
+	max-height: 21px;
+	padding: 0;
 	margin-bottom: 9px;
 }
 
+.footer-item.last {
+margin-bottom: 0px;
+}
 
 .footer-contacts {
+
 	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
 	font-style: normal;
-	margin-bottom: 9px;
 	font-size: 14px;
 	line-height: 1.71;
+	
 }
 
 .footer-contacts:hover,
@@ -552,7 +563,7 @@ fill: var(--svg-color);
 }
 
 .join-item {
-	padding: 0;
+	padding: 0px;
 }
 
 .join-link {
