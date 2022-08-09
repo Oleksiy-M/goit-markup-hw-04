@@ -202,12 +202,6 @@ img {
 }
 
 
-.button.prime:hover,
-.button.prime:focus {
-	color: var(--accent-color);
-	background-color: var(--white);
-}
-
 
 .button.secondsry {
 
@@ -287,7 +281,6 @@ img {
 
 .advantages {
 	display: flex;
-	background-color: aqua;
 }
 
 .advantages-item {
@@ -334,13 +327,38 @@ img {
 }
 
 .examples-list {
-	background-color: aqua;
 	display: flex;
 
 }
 
 .examples-list .examples-img:not(:last-child) {
 	margin-right: 30px;
+}
+
+
+
+.thumb {
+	position: relative;
+
+}
+
+.examples-description {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background: rgba(47, 48, 58, 0.8);
+	bottom: 0;
+}
+
+.examples-description .text {
+	padding: 27px;
+	color: var(--white);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+
+	text-transform: uppercase;
 }
 
 /*comandos*/
@@ -356,7 +374,6 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-			background-color: aqua;
 
 }
 
@@ -394,8 +411,6 @@ img {
 
 .social-network-list {
 display: inline-flex;
-
-background-color: aqua;
 }
 
 
@@ -619,8 +634,6 @@ margin-bottom: 0px;
 /*
 	margin-left: -30px;
 	margin-top: -30px;*/
-
-	background-color:aqua;
 }
 
 .cards-item {
